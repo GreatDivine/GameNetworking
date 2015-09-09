@@ -1,10 +1,11 @@
-﻿Build started 9/9/2015 3:08:11 PM.
+﻿Build started 9/9/2015 4:48:01 PM.
      1>Project "C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
      1>CustomBuild:
          Checking Build System
-         CMake is re-running because C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp is out-of-date.
-           the file 'C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/CMakeLists.txt'
-           is newer than 'C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp.depend'
+         CMake does not need to re-run because C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake is re-running because C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/generate.stamp is out-of-date.
+           the file 'C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/ServerClientMessaging/CMakeLists.txt'
+           is newer than 'C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/generate.stamp.depend'
            result='-1'
          -- Setting up the C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/include/RakNet directory...
          -- DONE: Setting up the C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/include/RakNet directory.
@@ -15,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.21
+Time Elapsed 00:00:01.27

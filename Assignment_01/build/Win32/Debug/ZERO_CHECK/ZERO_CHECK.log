@@ -1,15 +1,18 @@
-﻿Build started 9/9/2015 2:20:15 AM.
-     1>Project "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+﻿Build started 9/9/2015 3:08:11 PM.
+     1>Project "C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
      1>CustomBuild:
          Checking Build System
-         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp is up-to-date.
-         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/generate.stamp is up-to-date.
-         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/CMakeFiles/generate.stamp is up-to-date.
-         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/CMakeFiles/generate.stamp is up-to-date.
-         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/CMakeFiles/generate.stamp is up-to-date.
-         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/CMakeFiles/generate.stamp is up-to-date.
-     1>Done Building Project "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" (Build target(s)).
+         CMake is re-running because C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp is out-of-date.
+           the file 'C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/CMakeLists.txt'
+           is newer than 'C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp.depend'
+           result='-1'
+         -- Setting up the C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/include/RakNet directory...
+         -- DONE: Setting up the C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/include/RakNet directory.
+         -- Configuring done
+         -- Generating done
+         -- Build files have been written to: C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build
+     1>Done Building Project "C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.18
+Time Elapsed 00:00:01.21

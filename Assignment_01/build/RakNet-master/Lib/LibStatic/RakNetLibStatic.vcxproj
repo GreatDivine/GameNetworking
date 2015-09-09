@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{90213702-ADEF-40CE-961F-3E38455D53B1}</ProjectGUID>
+    <ProjectGUID>{85632FDD-1920-4221-921E-3407D772BB5F}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>RakNetLibStatic</ProjectName>
@@ -58,26 +58,26 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RakNetLibStatic.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RakNetLibStatic</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RakNetLibStatic.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RakNetLibStatic</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RakNetLibStatic.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RakNetLibStatic</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RakNetLibStatic.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RakNetLibStatic</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_RAKNET_LIB;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_RAKNET_LIB;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_RAKNET_LIB;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -194,10 +194,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_RAKNET_LIB;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -209,10 +209,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HE:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01" "-BE:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build" --check-stamp-file "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01 -BC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,12 +220,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HE:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01" "-BE:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build" --check-stamp-file "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01 -BC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -233,12 +233,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HE:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01" "-BE:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build" --check-stamp-file "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01 -BC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,12 +246,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HE:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01" "-BE:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build" --check-stamp-file "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01 -BC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,281 +259,281 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic/CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\LibStatic\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\AutopatcherPatchContext.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\AutopatcherRepositoryInterface.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Base64Encoder.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\BitStream.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CCRakNetSlidingWindow.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CCRakNetUDT.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CheckSum.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CloudClient.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CloudCommon.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CloudServer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CommandParserInterface.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ConnectionGraph2.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ConsoleServer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DataCompressor.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DirectoryDeltaTransfer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DR_SHA1.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_BinarySearchTree.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_BPlusTree.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_BytePool.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_ByteQueue.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_Hash.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_Heap.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_HuffmanEncodingTree.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_HuffmanEncodingTreeFactory.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_HuffmanEncodingTreeNode.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_LinkedList.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_List.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_Map.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_MemoryPool.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_Multilist.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_OrderedChannelHeap.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_OrderedList.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_Queue.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_QueueLinkedList.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_RangeList.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_Table.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_ThreadsafeAllocatingQueue.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_Tree.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_WeightedGraph.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DynDNS.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\EmailSender.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\EmptyHeader.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\EpochTimeToString.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Export.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FileList.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FileListNodeContext.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FileListTransfer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FileListTransferCBInterface.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FileOperations.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FormatString.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FullyConnectedMesh2.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Getche.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Gets.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\GetTime.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\gettimeofday.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\GridSectorizer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\HTTPConnection.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\HTTPConnection2.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\IncrementalReadInterface.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\InternalPacket.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Itoa.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Kbhit.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\LinuxStrings.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\LocklessTypes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\LogCommandParser.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\MessageFilter.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\MessageIdentifiers.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\MTUSize.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NativeFeatureIncludes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NativeFeatureIncludesOverrides.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NativeTypes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatPunchthroughClient.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatPunchthroughServer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionClient.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionCommon.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionServer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NetworkIDManager.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NetworkIDObject.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketConsoleLogger.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketFileLogger.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketizedTCP.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketLogger.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketOutputWindowLogger.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketPool.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketPriority.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PluginInterface2.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PS3Includes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PS4Includes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Rackspace.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakAlloca.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakAssert.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakMemoryOverride.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetCommandParser.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetDefines.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetDefinesOverrides.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSmartPtr.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetStatistics.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTime.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTransport2.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTypes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetVersion.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakPeer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakPeerInterface.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakSleep.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakString.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakThread.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakWString.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Rand.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RandSync.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ReadyEvent.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RefCountedObj.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RelayPlugin.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ReliabilityLayer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ReplicaEnums.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ReplicaManager3.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Router2.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RPC4Plugin.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SecureHandshake.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SendToThread.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SignaledEvent.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SimpleMutex.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SimpleTCPServer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SingleProducerConsumer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SocketDefines.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SocketIncludes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SocketLayer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\StatisticsHistory.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\StringCompressor.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\StringTable.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SuperFastHash.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TableSerializer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TCPInterface.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TeamBalancer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TeamManager.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TelnetTransport.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ThreadPool.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ThreadsafePacketLogger.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TransportInterface.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TwoWayAuthentication.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPForwarder.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyClient.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyCommon.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyCoordinator.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyServer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\VariableDeltaSerializer.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\VariableListDeltaTracker.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\VariadicSQLParser.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\VitaIncludes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\WindowsIncludes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\WSAStartupSingleton.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\XBox360Includes.h" />
-    <ClInclude Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\_FindFirst.h" />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Base64Encoder.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\BitStream.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CCRakNetSlidingWindow.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CCRakNetUDT.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CheckSum.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CloudClient.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CloudCommon.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CloudServer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\CommandParserInterface.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ConnectionGraph2.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ConsoleServer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DataCompressor.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DirectoryDeltaTransfer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DR_SHA1.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_BytePool.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_ByteQueue.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_HuffmanEncodingTree.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DS_Table.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\DynDNS.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\EmailSender.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\EpochTimeToString.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FileList.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FileListTransfer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FileOperations.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FormatString.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\FullyConnectedMesh2.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Getche.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Gets.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\GetTime.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\gettimeofday.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\GridSectorizer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\HTTPConnection.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\HTTPConnection2.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\IncrementalReadInterface.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Itoa.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\LinuxStrings.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\LocklessTypes.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\LogCommandParser.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\MessageFilter.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatPunchthroughClient.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatPunchthroughServer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionClient.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionCommon.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionServer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NetworkIDManager.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\NetworkIDObject.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketConsoleLogger.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketFileLogger.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketizedTCP.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketLogger.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PacketOutputWindowLogger.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PluginInterface2.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\PS4Includes.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Rackspace.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakMemoryOverride.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetCommandParser.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_360_720.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Berkley.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Berkley_NativeClient.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_NativeClient.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_PS3_PS4.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_PS4.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Vita.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_WindowsStore8.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Windows_Linux.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Windows_Linux_360.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetStatistics.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTransport2.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTypes.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakPeer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakSleep.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakString.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakThread.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RakWString.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Rand.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RandSync.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ReadyEvent.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RelayPlugin.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ReliabilityLayer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ReplicaManager3.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\Router2.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\RPC4Plugin.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SecureHandshake.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SendToThread.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SignaledEvent.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SimpleMutex.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SocketLayer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\StatisticsHistory.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\StringCompressor.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\StringTable.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\SuperFastHash.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TableSerializer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TCPInterface.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TeamBalancer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TeamManager.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TelnetTransport.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\ThreadsafePacketLogger.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\TwoWayAuthentication.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPForwarder.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyClient.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyCoordinator.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyServer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\VariableDeltaSerializer.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\VariableListDeltaTracker.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\VariadicSQLParser.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\VitaIncludes.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\WSAStartupSingleton.cpp"  />
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source\_FindFirst.cpp"  />
-    <None Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\readme.txt" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\AutopatcherPatchContext.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\AutopatcherRepositoryInterface.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Base64Encoder.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\BitStream.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CCRakNetSlidingWindow.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CCRakNetUDT.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CheckSum.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CloudClient.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CloudCommon.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CloudServer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CommandParserInterface.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ConnectionGraph2.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ConsoleServer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DataCompressor.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DirectoryDeltaTransfer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DR_SHA1.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_BinarySearchTree.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_BPlusTree.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_BytePool.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_ByteQueue.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_Hash.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_Heap.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_HuffmanEncodingTree.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_HuffmanEncodingTreeFactory.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_HuffmanEncodingTreeNode.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_LinkedList.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_List.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_Map.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_MemoryPool.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_Multilist.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_OrderedChannelHeap.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_OrderedList.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_Queue.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_QueueLinkedList.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_RangeList.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_Table.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_ThreadsafeAllocatingQueue.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_Tree.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_WeightedGraph.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DynDNS.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\EmailSender.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\EmptyHeader.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\EpochTimeToString.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Export.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FileList.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FileListNodeContext.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FileListTransfer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FileListTransferCBInterface.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FileOperations.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FormatString.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FullyConnectedMesh2.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Getche.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Gets.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\GetTime.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\gettimeofday.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\GridSectorizer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\HTTPConnection.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\HTTPConnection2.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\IncrementalReadInterface.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\InternalPacket.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Itoa.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Kbhit.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\LinuxStrings.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\LocklessTypes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\LogCommandParser.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\MessageFilter.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\MessageIdentifiers.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\MTUSize.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NativeFeatureIncludes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NativeFeatureIncludesOverrides.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NativeTypes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatPunchthroughClient.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatPunchthroughServer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionClient.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionCommon.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionServer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NetworkIDManager.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NetworkIDObject.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketConsoleLogger.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketFileLogger.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketizedTCP.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketLogger.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketOutputWindowLogger.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketPool.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketPriority.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PluginInterface2.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PS3Includes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PS4Includes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Rackspace.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakAlloca.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakAssert.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakMemoryOverride.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetCommandParser.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetDefines.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetDefinesOverrides.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSmartPtr.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetStatistics.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTime.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTransport2.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTypes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetVersion.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakPeer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakPeerInterface.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakSleep.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakString.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakThread.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakWString.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Rand.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RandSync.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ReadyEvent.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RefCountedObj.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RelayPlugin.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ReliabilityLayer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ReplicaEnums.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ReplicaManager3.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Router2.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RPC4Plugin.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SecureHandshake.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SendToThread.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SignaledEvent.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SimpleMutex.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SimpleTCPServer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SingleProducerConsumer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SocketDefines.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SocketIncludes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SocketLayer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\StatisticsHistory.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\StringCompressor.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\StringTable.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SuperFastHash.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TableSerializer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TCPInterface.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TeamBalancer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TeamManager.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TelnetTransport.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ThreadPool.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ThreadsafePacketLogger.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TransportInterface.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TwoWayAuthentication.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPForwarder.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyClient.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyCommon.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyCoordinator.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyServer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\VariableDeltaSerializer.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\VariableListDeltaTracker.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\VariadicSQLParser.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\VitaIncludes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\WindowsIncludes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\WSAStartupSingleton.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\XBox360Includes.h" />
+    <ClInclude Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\_FindFirst.h" />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Base64Encoder.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\BitStream.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CCRakNetSlidingWindow.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CCRakNetUDT.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CheckSum.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CloudClient.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CloudCommon.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CloudServer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\CommandParserInterface.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ConnectionGraph2.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ConsoleServer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DataCompressor.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DirectoryDeltaTransfer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DR_SHA1.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_BytePool.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_ByteQueue.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_HuffmanEncodingTree.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DS_Table.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\DynDNS.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\EmailSender.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\EpochTimeToString.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FileList.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FileListTransfer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FileOperations.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FormatString.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\FullyConnectedMesh2.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Getche.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Gets.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\GetTime.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\gettimeofday.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\GridSectorizer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\HTTPConnection.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\HTTPConnection2.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\IncrementalReadInterface.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Itoa.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\LinuxStrings.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\LocklessTypes.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\LogCommandParser.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\MessageFilter.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatPunchthroughClient.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatPunchthroughServer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionClient.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionCommon.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NatTypeDetectionServer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NetworkIDManager.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\NetworkIDObject.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketConsoleLogger.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketFileLogger.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketizedTCP.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketLogger.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PacketOutputWindowLogger.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PluginInterface2.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\PS4Includes.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Rackspace.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakMemoryOverride.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetCommandParser.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_360_720.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Berkley.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Berkley_NativeClient.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_NativeClient.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_PS3_PS4.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_PS4.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Vita.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_WindowsStore8.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Windows_Linux.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetSocket2_Windows_Linux_360.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetStatistics.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTransport2.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakNetTypes.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakPeer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakSleep.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakString.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakThread.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RakWString.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Rand.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RandSync.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ReadyEvent.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RelayPlugin.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ReliabilityLayer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ReplicaManager3.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\Router2.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\RPC4Plugin.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SecureHandshake.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SendToThread.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SignaledEvent.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SimpleMutex.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SocketLayer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\StatisticsHistory.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\StringCompressor.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\StringTable.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\SuperFastHash.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TableSerializer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TCPInterface.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TeamBalancer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TeamManager.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TelnetTransport.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\ThreadsafePacketLogger.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\TwoWayAuthentication.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPForwarder.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyClient.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyCoordinator.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\UDPProxyServer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\VariableDeltaSerializer.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\VariableListDeltaTracker.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\VariadicSQLParser.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\VitaIncludes.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\WSAStartupSingleton.cpp"  />
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source\_FindFirst.cpp"  />
+    <None Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\LibStatic\readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/ZERO_CHECK.vcxproj">
-      <Project>B5A3BCEB-2E2F-4A87-9DA4-F18D673F9ADE</Project>
+    <ProjectReference Include="C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ZERO_CHECK.vcxproj">
+      <Project>FD0EA470-8B4D-4778-A524-BC9BFABD6379</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\ServerClientMessaging\main.cpp">
+    <ClCompile Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\ServerClientMessaging\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\ServerClientMessaging\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\ServerClientMessaging\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2806D3AA-32CD-412C-B056-F852DC1B0CB8}</UniqueIdentifier>
+      <UniqueIdentifier>{5F9DEF12-CD66-48D1-AB3E-74ABD860CD07}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

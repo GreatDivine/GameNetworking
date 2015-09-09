@@ -1,5 +1,5 @@
-E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/CMakeFiles/RakNetLibStatic.dir
-E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/CMakeFiles/ALL_BUILD.dir
-E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/Assignment_01.dir
-E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/CMakeFiles/ZERO_CHECK.dir
-E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/CMakeFiles/RakNetDLL.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/CMakeFiles/RakNetLibStatic.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/CMakeFiles/ALL_BUILD.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/Assignment_01.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/CMakeFiles/RakNetDLL.dir

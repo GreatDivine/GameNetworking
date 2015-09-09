@@ -8,28 +8,28 @@
 
 int main()
 {
-	//std::string str = "";
-	//RakNet::RakPeerInterface *peer = RakNet::RakPeerInterface::GetInstance();
-	//bool isServer;
+	std::string str = "";
+	RakNet::RakPeerInterface *peer = RakNet::RakPeerInterface::GetInstance();
+	bool isServer;
 
-	//std::cout << "(C)lient or (S)erver?" << std::endl;
-	//std::getline(std::cin, str);
+	std::cout << "(C)lient or (S)erver?" << std::endl;
+	std::getline(std::cin, str);
 
-	//if ((str[0] == 'c') || (str[0] == 'C'))
-	//{
-	//	RakNet::SocketDescriptor sd;
-	//	peer->Startup(1, &sd, 1);
-	//	isServer = false;
-	//}
+	if ((str[0] == 'c') || (str[0] == 'C'))
+	{
+		RakNet::SocketDescriptor sd;
+		peer->Startup(1, &sd, 1);
+		isServer = false;
+	}
 
-	//else
-	//{
-	//	RakNet::SocketDescriptor sd(SERVER_PORT, 0);
-	//	peer->Startup(MAX_CLIENTS, &sd, 1);
-	//	isServer = true;
-	//}
+	else
+	{
+		RakNet::SocketDescriptor sd(SERVER_PORT, 0);
+		peer->Startup(MAX_CLIENTS, &sd, 1);
+		isServer = true;
+	}
 
-	//RakNet::RakPeerInterface::DestroyInstance(peer);
+	RakNet::RakPeerInterface::DestroyInstance(peer);
 
 	return 0;
 }

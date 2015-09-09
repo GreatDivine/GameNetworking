@@ -1,8 +1,8 @@
-# Install script for directory: E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic
+# Install script for directory: C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/LibStatic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Lab1")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Assignment_01")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

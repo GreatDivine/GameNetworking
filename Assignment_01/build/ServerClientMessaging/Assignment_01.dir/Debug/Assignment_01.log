@@ -1,18 +1,29 @@
-﻿Build started 9/9/2015 2:20:15 AM.
-     1>Project "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ServerClientMessaging\Assignment_01.vcxproj" on node 2 (Build target(s)).
-     1>CustomBuild:
-         Building Custom Rule E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/ServerClientMessaging/CMakeLists.txt
-         CMake does not need to re-run because E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ServerClientMessaging\CMakeFiles\generate.stamp is up-to-date.
+﻿Build started 9/9/2015 3:18:45 PM.
+     1>Project "C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ServerClientMessaging\Assignment_01.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01../RakNet-master/Source C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
        ClCompile:
-         E:\My Utilities\VC\bin\CL.exe /c /I"E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\RakNet-master\Source" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Assignment_01.dir\Debug\\" /Fd"Assignment_01.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\ServerClientMessaging\main.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\ServerClientMessaging\..\RakNet-master\Source" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Assignment_01.dir\Debug\\" /Fd"Assignment_01.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\ServerClientMessaging\main.cpp
          main.cpp
        Link:
-         E:\My Utilities\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ServerClientMessaging\Debug\Assignment_01.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/ServerClientMessaging/Debug/Assignment_01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/ServerClientMessaging/Debug/Assignment_01.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug Assignment_01.dir\Debug\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ServerClientMessaging\Debug\Assignment_01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/Debug/Assignment_01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/Debug/Assignment_01.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug Assignment_01.dir\Debug\main.obj
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall RakNet::SocketDescriptor::SocketDescriptor(void)" (??0SocketDescriptor@RakNet@@QAE@XZ) referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall RakNet::SocketDescriptor::SocketDescriptor(unsigned short,char const *)" (??0SocketDescriptor@RakNet@@QAE@GPBD@Z) referenced in function _main
      1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall RakNet::SystemAddress::SystemAddress(void)" (??0SystemAddress@RakNet@@QAE@XZ) referenced in function "void __cdecl RakNet::`dynamic initializer for 'UNASSIGNED_SYSTEM_ADDRESS''(void)" (??__EUNASSIGNED_SYSTEM_ADDRESS@RakNet@@YAXXZ)
-     1>libcpmtd.lib(stdthrow.obj) : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
-     1>E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ServerClientMessaging\Debug\Assignment_01.exe : fatal error LNK1120: 2 unresolved externals
-     1>Done Building Project "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ServerClientMessaging\Assignment_01.vcxproj" (Build target(s)) -- FAILED.
+     1>main.obj : error LNK2019: unresolved external symbol "public: static class RakNet::RakPeerInterface * __cdecl RakNet::RakPeerInterface::GetInstance(void)" (?GetInstance@RakPeerInterface@RakNet@@SAPAV12@XZ) referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol "public: static void __cdecl RakNet::RakPeerInterface::DestroyInstance(class RakNet::RakPeerInterface *)" (?DestroyInstance@RakPeerInterface@RakNet@@SAXPAV12@@Z) referenced in function _main
+     1>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ServerClientMessaging\Debug\Assignment_01.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ServerClientMessaging\Assignment_01.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.86
+Time Elapsed 00:00:02.51

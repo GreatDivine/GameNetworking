@@ -1,0 +1,15 @@
+﻿Build started 9/9/2015 2:20:15 AM.
+     1>Project "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Documents/College Documents/Semester 7/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "E:\Documents\College Documents\Semester 7\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18

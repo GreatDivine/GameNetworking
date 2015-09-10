@@ -1,19 +1,15 @@
-﻿Build started 9/9/2015 4:48:01 PM.
-     1>Project "C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+﻿Build started 9/9/2015 7:40:33 PM.
+     1>Project "C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
      1>CustomBuild:
          Checking Build System
-         CMake does not need to re-run because C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp is up-to-date.
-         CMake is re-running because C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/generate.stamp is out-of-date.
-           the file 'C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/ServerClientMessaging/CMakeLists.txt'
-           is newer than 'C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/generate.stamp.depend'
-           result='-1'
-         -- Setting up the C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/include/RakNet directory...
-         -- DONE: Setting up the C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/include/RakNet directory.
-         -- Configuring done
-         -- Generating done
-         -- Build files have been written to: C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build
-     1>Done Building Project "C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" (Build target(s)).
+         CMake does not need to re-run because C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/RakNet-master/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\ZERO_CHECK.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.27
+Time Elapsed 00:00:00.78

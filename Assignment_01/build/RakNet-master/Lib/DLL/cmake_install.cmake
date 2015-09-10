@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL
+# Install script for directory: C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

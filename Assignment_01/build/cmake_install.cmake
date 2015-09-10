@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01
+# Install script for directory: C:/Users/Abbey/Desktop/GameNetworking/Assignment_01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/cmake_install.cmake")
-  include("C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/RakNet-master/cmake_install.cmake")
+  include("C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/ServerClientMessaging/cmake_install.cmake")
+  include("C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/RakNet-master/cmake_install.cmake")
 
 endif()
 
@@ -42,5 +42,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

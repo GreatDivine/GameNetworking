@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{5916DC03-5D19-4704-AFDE-594DCE926310}</ProjectGUID>
+    <ProjectGUID>{59A7E624-B26E-4888-8D38-D67096701587}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -65,7 +65,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -75,7 +75,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -95,7 +95,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Source;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions\openssl-1.0.0d\include;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\DependentExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -104,10 +104,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01 -BC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Abbey/Desktop/GameNetworking/Assignment_01 -BC:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -115,12 +115,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01 -BC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Abbey/Desktop/GameNetworking/Assignment_01 -BC:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,12 +128,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01 -BC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Abbey/Desktop/GameNetworking/Assignment_01 -BC:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,12 +141,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01 -BC:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Abbey/Desktop/GameNetworking/Assignment_01 -BC:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build --check-stamp-file C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -154,16 +154,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\kyle.strader\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib/DLL/CMakeLists.txt;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\Lib\DLL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\build\RakNet-master\Lib\DLL\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/RakNetDLL.vcxproj">
-      <Project>9A2C49D7-C3A0-4873-87AE-F1019B6589B3</Project>
+    <ProjectReference Include="C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/RakNetDLL.vcxproj">
+      <Project>D807C4C4-DC5A-4EE4-B25F-5626FD7BB5D6</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

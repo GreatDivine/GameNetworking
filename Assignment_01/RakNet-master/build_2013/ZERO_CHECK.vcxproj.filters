@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abbey\Desktop\GameNetworking\Assignment_01\RakNet-master\build_2013\CMakeFiles\1f529b25dad744e3c163642a08b01566\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{06DB1EF1-A8DB-4281-919E-ED7C374C48B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

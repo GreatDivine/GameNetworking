@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib
+# Install script for directory: C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/Lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/cmake_install.cmake")
-  include("C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/cmake_install.cmake")
+  include("C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/LibStatic/cmake_install.cmake")
+  include("C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/build/RakNet-master/Lib/DLL/cmake_install.cmake")
 
 endif()
 

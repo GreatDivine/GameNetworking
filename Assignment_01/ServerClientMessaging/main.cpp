@@ -4,19 +4,26 @@
 
 #include "RakPeerInterface.h"
 #include "MessageIdentifiers.h"
+#include "BitStream.h"
+#include "RakNetTypes.h"
 
 #define MAX_CLIENTS 10
 #define SERVER_PORT 60000
 
+enum GameMessages
+{
+	ID_GAME_MESSAGE_1 = ID_USER_PACKET_ENUM + 1
+};
+
 int main()
 {
-	std::string str = "";
+	char str[512];
 	RakNet::RakPeerInterface *peer = RakNet::RakPeerInterface::GetInstance();
 	bool isServer;
 	RakNet::Packet *packet;
 
-	std::cout << "(C)lient or (S)erver?" << std::endl;
-	std::getline(std::cin, str);
+	printf("(C)lient or (S)erver?\n");
+	gets(str);
 
 	if ((str[0] == 'c') || (str[0] == 'C'))
 	{
@@ -34,20 +41,20 @@ int main()
 
 	if (isServer)
 	{
-		std::cout << "Starting the server." << std::endl;
+		printf("Starting the server.\n");
 		peer->SetMaximumIncomingConnections(MAX_CLIENTS);
 	}
 	else
 	{
-		std::cout << "Enter server IP or hit enter for default: 127.0.0.1" << std::endl;
-		std::getline(std::cin, str);
-		if (str == "")
+		printf("Enter server IP or hit enter for default: 127.0.0.1\n");
+		gets(str);
+		if (str[0] == 0)
 		{
-			str = "127.0.0.1";
+			strcpy(str, "127.0.0.1");
 		}
 
-		std::cout << "Starting the client." << std::endl;
-		peer->Connect(str.c_str(), SERVER_PORT, 0, 0);
+		printf("Starting the client.\n");
+		peer->Connect(str, SERVER_PORT, 0, 0);
 	}
 
 	while (1)
@@ -57,35 +64,60 @@ int main()
 			switch (packet->data[0])
 			{
 			case ID_REMOTE_DISCONNECTION_NOTIFICATION:
-				std::cout << "Another client has dosconnected" << std::endl;
+				printf("Another client has dosconnected\n");
 				break;
+
 			case ID_REMOTE_CONNECTION_LOST:
-				std::cout << "Another client has lost the connection" << std::endl;
+				printf("Another client has lost the connection\n");
 				break;
+
 			case ID_REMOTE_NEW_INCOMING_CONNECTION:
-				std::cout << "Another client has connected" << std::endl;
+				printf("Another client has connected\n");
 				break;
+
 			case ID_CONNECTION_REQUEST_ACCEPTED:
-				std::cout << "Our connection request has been accepted." << std::endl;
+				printf("Our connection request has been accepted.\n");
+				{
+					RakNet::BitStream bsOut;
+					bsOut.Write((RakNet::MessageID)ID_GAME_MESSAGE_1);
+					bsOut.Write("Hello World");
+					peer->Send(&bsOut, HIGH_PRIORITY, RELIABLE_ORDERED, 0, packet->systemAddress, false);
+				}
 				break;
+
 			case ID_NEW_INCOMING_CONNECTION:
-				std::cout << "A connection is incoming." << std::endl;
+				printf("A connection is incoming.\n");
 				break;
+
 			case ID_NO_FREE_INCOMING_CONNECTIONS:
-				std::cout << "The server is full." << std::endl;
+				printf("The server is full.\n");
 				break;
+
 			case ID_DISCONNECTION_NOTIFICATION:
-				if (isServer)
 				{
-					std::cout << "A client has disconnected." << std::endl;
-				}
-				else 
-				{
-					std::cout << "We have been disconnected." << std::endl;
+					if (isServer)
+					{
+						printf("A client has disconnected.\n");
+					}
+					else
+					{
+						printf("We have been disconnected.\n");
+					}
 				}
 				break;
+
+			case ID_GAME_MESSAGE_1:
+				{
+					RakNet::RakString rs;
+					RakNet::BitStream bsIn(packet->data, packet->length, false);
+					bsIn.IgnoreBytes(sizeof(RakNet::MessageID));
+					bsIn.Read(rs);
+					printf("%s\n", rs.C_String());
+				}
+				break;
+
 			default:
-				printf("Message with identifier %i has arrived. \n", packet->data[0]);
+				printf("Message with identifier %i has arrived.\n", packet->data[0]);
 				break;
 			}
 		}

@@ -1,4 +1,61 @@
-C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Lib/LibStatic/CMakeFiles/RakNetLibStatic.dir
-C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Lib/LibStatic/CMakeFiles/ALL_BUILD.dir
-C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Abbey/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Lib/DLL/CMakeFiles/RakNetDLL.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Dropped Connection Test/CMakeFiles/DroppedConnectionTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/AutopatcherServer/CMakeFiles/AutopatcherServer_PostgreSQL.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/ServerClientTest2/CMakeFiles/ServerClientTest2.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/CrossConnectionTest/CMakeFiles/CrossConnectionTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Router2/CMakeFiles/Router2.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/MessageFilter/CMakeFiles/MessageFilter.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/TitleValidationDB_PostgreSQL/CMakeFiles/TitleValidationDB_PostgreSQL.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Chat Example/CMakeFiles/ChatClient.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/StatisticsHistoryTest/CMakeFiles/StatisticsHistoryTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/PHPDirectoryServer2/CMakeFiles/PHPDirectoryServer2.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Encryption/CMakeFiles/Encryption.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/ComprehensiveTest/CMakeFiles/ComprehensiveTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/CloudClient/CMakeFiles/CloudClient.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/BurstTest/CMakeFiles/BurstTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/TeamManager/CMakeFiles/TeamManager.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Lib/LibStatic/CMakeFiles/RakNetLibStatic.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Timestamping/CMakeFiles/Timestamping.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Fully Connected Mesh/CMakeFiles/Fully Connected Mesh.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/NATCompleteClient/CMakeFiles/NATCompleteClient.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/CommandConsoleClient/CMakeFiles/CommandConsoleClient.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/RPC3/CMakeFiles/RPC3.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/RPC4/CMakeFiles/RPC4.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Chat Example/CMakeFiles/ChatServer.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/PacketLogger/CMakeFiles/PacketLogger.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/ComprehensivePCGame/CMakeFiles/ComprehensivePCGame.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/UDPForwarder/CMakeFiles/ALL_BUILD.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/MessageSizeTest/CMakeFiles/MessageSizeTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/RackspaceConsole/CMakeFiles/RackspaceConsole.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/SendEmail/CMakeFiles/SendEmail.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/LANServerDiscovery/CMakeFiles/LANServerDiscovery.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/CloudServer/CMakeFiles/CloudServer.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Reliable Ordered Test/CMakeFiles/ReliableOrderedTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/UDPForwarder/CMakeFiles/UDPForwarder.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/RakVoice/CMakeFiles/RakVoice.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/FileListTransfer/CMakeFiles/FileListTransfer.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/TestDLL/CMakeFiles/TestDLL.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/RakVoiceFMOD/CMakeFiles/RakVoiceFMOD.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/AutopatcherClient/CMakeFiles/AutopatcherClient.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/AutopatcherClientRestarter/CMakeFiles/AutopatcherClientRestarter.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/NATCompleteServer/CMakeFiles/NATCompleteServer.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/CommandConsoleServer/CMakeFiles/CommandConsoleServer.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/ThreadTest/CMakeFiles/ThreadTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/TwoWayAuthentication/CMakeFiles/TwoWayAuthentication.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/ReplicaManager3/CMakeFiles/ReplicaManager3.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/FCMHostSimultaneous/CMakeFiles/FCMHostSimultaneous.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/BigPacketTest/CMakeFiles/BigPacketTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/DirectoryDeltaTransfer/CMakeFiles/DirectoryDeltaTransfer.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/CMakeFiles/ZERO_CHECK.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Ping/CMakeFiles/Ping.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/OfflineMessagesTest/CMakeFiles/OfflineMessagesTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/FCMVerifiedJoinSimultaneous/CMakeFiles/FCMVerifiedJoinSimultaneous.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/CrashReporter/CMakeFiles/CrashReporter.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Lib/DLL/CMakeFiles/RakNetDLL.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/RakVoiceDSound/CMakeFiles/RakVoiceDSound.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Lobby2Client/CMakeFiles/Lobby2Client.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/FCMHost/CMakeFiles/FCMHost.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Flow Control Test/CMakeFiles/FlowControlTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/CloudTest/CMakeFiles/CloudTest.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/Tests/CMakeFiles/Tests.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/AutoPatcherServer_MySQL/CMakeFiles/AutoPatcherServer_MySQL.dir
+C:/Users/kyle.strader/Desktop/GameNetworking/Assignment_01/RakNet-master/build_2013/Samples/MasterServer/CMakeFiles/MasterServer.dir
